@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Extracted chats (contain personal conversations)
+deepseek_chat_*.txt
+
+# Firefox profile data (contains cookies/session)
+firefox_profile/
+firefox_profile_copy/
+.tmp_cookies/
+
+# Lock files
+yarn.lock
+package-lock.json

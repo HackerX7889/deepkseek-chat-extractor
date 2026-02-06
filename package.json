@@ -1,0 +1,21 @@
+{
+  "name": "deepkseek-chat-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "extract": "node extract-chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "geckodriver": "^6.1.0",
+    "playwright": "^1.58.2",
+    "puppeteer": "^24.37.2",
+    "selenium-webdriver": "^4.40.0"
+  }
+}
