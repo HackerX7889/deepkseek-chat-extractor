@@ -1,9 +1,11 @@
 {
-  "name": "deepkseek-chat-extractor",
+  "name": "chat-extractor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extract chat conversations from DeepSeek and ChatGPT sessions",
   "main": "index.js",
   "scripts": {
+    "extract:deepseek": "node extract-chat.js",
+    "extract:chatgpt": "node extract-chatgpt.js",
     "extract": "node extract-chat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
